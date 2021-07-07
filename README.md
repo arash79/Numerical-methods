@@ -7,3 +7,4 @@ codes that are uploaded in this repository are:
 3) Householder QR decomposition method
 4) Jacobi method
 5) bisection method
+6) fourth order runge-kutta method
