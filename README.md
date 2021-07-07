@@ -6,5 +6,6 @@ codes that are uploaded in this repository are:
 2) Gauss sidel method
 3) Householder QR decomposition method
 4) Jacobi method
-5) bisection method
-6) fourth order runge-kutta method
+5) Bisection method
+6) Fourth order runge-kutta method
+7) Lagrange interpolation method
