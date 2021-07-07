@@ -9,3 +9,4 @@ codes that are uploaded in this repository are:
 5) Bisection method
 6) Fourth order runge-kutta method
 7) Lagrange interpolation method
+8) Linear Least Squares method
