@@ -17,6 +17,6 @@ def newton(interval, function_expression, precision=0.001):
 
 
 if __name__ == '__main__':
-    user_input = input("please enter your function: ")
-    initial_point = eval(input("please enter the initial point: "))
-    print(newton(initial_point, user_input))
+    given_function = input("please enter your function: ")
+    given_interval = eval(input("please enter an interval like [a, b] where a and b are numbers: ")))
+    print(newton(given_interval, given_function))
