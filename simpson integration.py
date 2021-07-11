@@ -13,13 +13,13 @@ def simpson_integration(interval, function_expression, partitions=6):
     h = (interval[1] - interval[0]) / partition
     function_variable = var("x")
     function = sympify(function_expression)
-    integration_value = function.subs(function_variable, interval[0]) + function.subs(function_variable, interval[1])
+    integration_value = function.subs(function_variable, interval[0]) + function.subs(function_variable, interval[1])  # calculating function value
     for i in range(1, partitions, 2):
-        integration_value += 4 * function.subs(function_variable, interval[0] + i * h)
+        integration_value += 4 * function.subs(function_variable, interval[0] + i * h)  # calculating function value
     for i in range(2, partitions - 1, 2):
-        integration_value += 2 * function.subs(function_variable, interval[0] + i * h)
+        integration_value += 2 * function.subs(function_variable, interval[0] + i * h)  # calculating function value
     integration_value = h * integration_value
-    forth_derivative = diff(function, "x", 4)
+    forth_derivative = diff(function, "x", 4)  # differentiate function by sympy
     forth_derivative_maximum_value = derivative_maximum_value_calculator(forth_derivative, interval)
     interval_length = interval[1] - interval[0]
     maximum_integration_error = forth_derivative_maximum_value * (pow(interval_length, 5) / (180 * pow(partitions, 4)))
