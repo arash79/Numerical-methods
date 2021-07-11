@@ -4,7 +4,7 @@ a series of numerical methods, coded in python language. numpy, scipy and simpy 
 codes that are uploaded in this repository are:
 1) Gaussian Elimination with Complete Pivoting (GECP) method
 2) Gauss sidel method
-3) Householder QR decomposition method
+3) Householder QR factorization method
 4) Jacobi method
 5) Bisection roots finding method
 6) Fourth order runge-kutta method
@@ -15,3 +15,4 @@ codes that are uploaded in this repository are:
 11) Numerical derivation
 12) simpson integration method
 13) trapezoid integration method
+14) Gram-Shmidt QR factorization method
