@@ -6,9 +6,9 @@ codes that are uploaded in this repository are:
 2) Gauss sidel method
 3) Householder QR decomposition method
 4) Jacobi method
-5) Bisection method
+5) Bisection roots finding method
 6) Fourth order runge-kutta method
 7) Lagrange interpolation method
 8) Linear Least Squares method
 9) Newton divided differences interpolation method
-10) Newton-Newton (Newton-Raphson) interpolation method
+10) Newton-Newton (Newton-Raphson) roots finding method
