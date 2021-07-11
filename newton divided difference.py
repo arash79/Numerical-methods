@@ -21,5 +21,7 @@ def divided_diff(given_points, x):
     return result
 
 
-p = divided_diff([(-1, -2), (1, 0), (2, 7), (3, 26)], 0.5)
-print(p)
+if __name__ == '__main__':
+    given_values = eval(input("please enter the values as a list of tuples like [(1, 0.3413), (1.3, 0.4032)]: "))
+    given_point = float(input("please enter the point x at which you want to interpolate value: "))
+    print(divided_diff(given_values, given_point))
