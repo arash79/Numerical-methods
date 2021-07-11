@@ -10,3 +10,5 @@ codes that are uploaded in this repository are:
 6) Fourth order runge-kutta method
 7) Lagrange interpolation method
 8) Linear Least Squares method
+9) Newton divided differences interpolation method
+10) Newton-Newton (Newton-Raphson) interpolation method
