@@ -13,3 +13,5 @@ codes that are uploaded in this repository are:
 9) Newton divided differences interpolation method
 10) Newton-Newton (Newton-Raphson) roots finding method
 11) Numerical derivation
+12) simpson integration method
+13) trapezoid integration method
