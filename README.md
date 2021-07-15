@@ -1,5 +1,5 @@
 # Numerical methods
-a series of numerical methods, coded in python language. numpy, scipy and sympy are used quite heavily in these codes, so in order to use these files you have to install these modules. usage guidance is provided within the codes by comments, docstring and even printing instruction. I strongly recommend to read these modules document to avoid any possible errors.
+a series of numerical methods, coded in python language. numpy, scipy and sympy are used quite heavily in these codes, so in order to use these files you have to install these modules. usage guidance is provided within the codes by comments, docstring and even printing instruction. reading these modules is strongly recommended to avoid any possible errors.
 
 codes that are uploaded in this repository are:
 1) Gaussian Elimination with Complete Pivoting (GECP) method
