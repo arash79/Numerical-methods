@@ -16,3 +16,4 @@ codes that are uploaded in this repository are:
 12) simpson integration method
 13) trapezoid integration method
 14) Gram-Shmidt QR factorization method
+15) Fourier Series
